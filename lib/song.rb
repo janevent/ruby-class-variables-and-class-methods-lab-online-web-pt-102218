@@ -40,6 +40,6 @@ class Song
         @@artist_count_hash[artist] = 1 
       end
     end
-    @@artists_count_hash
+    @@artist_count_hash
   end
 end
