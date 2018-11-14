@@ -9,6 +9,7 @@ class Song
     @genre = genre 
     @@count +=1
     @@genre_array << @genre
+    @@artists << @artist
   end
   def count 
     @@count
