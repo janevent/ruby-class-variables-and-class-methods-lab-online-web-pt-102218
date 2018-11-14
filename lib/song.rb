@@ -15,4 +15,5 @@ class Song
   def genres
     @@genre_array.uniq!
   end
+  
 end
