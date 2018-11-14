@@ -29,7 +29,5 @@ class Song
         @@genre_count_hash[genre] = 1 
       end
     end
-    
-    
   end
 end
