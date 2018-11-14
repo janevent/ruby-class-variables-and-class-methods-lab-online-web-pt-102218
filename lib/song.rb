@@ -12,6 +12,6 @@ class Song
     @@count
   end
   def genres
-    genre_array
+    genre_array.uniq!
   end
 end
