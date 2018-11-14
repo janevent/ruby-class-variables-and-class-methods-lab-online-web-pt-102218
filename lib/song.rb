@@ -39,7 +39,7 @@ class Song
       else 
         @@artist_count_hash[artist] = 1 
       end
-      @@artist_count_hash
     end
+    @@artists_count_hash
   end
 end
