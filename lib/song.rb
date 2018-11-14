@@ -37,8 +37,9 @@ class Song
       if @@artist_count_hash.include?(artist)
         @@artist_count_hash[artist] += 1 
       else 
-        @@genre_count_hash[genre] = 1 
+        @@artist_count_hash[artist] = 1 
       end
+      @@artist_count_hash
     end
   end
 end
